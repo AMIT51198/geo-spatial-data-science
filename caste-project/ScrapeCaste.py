@@ -1,3 +1,7 @@
+"""
+Script for scraping caste data from Google Maps.
+"""
+
 import time
 import csv
 from selenium.webdriver.common.by import By

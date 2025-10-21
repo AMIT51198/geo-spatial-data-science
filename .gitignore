@@ -1,0 +1,47 @@
+# .gitignore for cleaned geospatial repo
+
+# Ignore data files
+*.csv
+*.geojson
+*.xlsx
+*.json
+*.qgz
+*.dbf
+*.prj
+*.shp
+*.shx
+*.sbn
+*.sbx
+*.cpg
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.pdf
+*.zip
+*.tar.gz
+*.pyc
+*.xml
+*.html
+__pycache__/
+output/
+data-for-model/
+photos-image/
+india-census/
+India-map/
+india-shools/
+interactive-maps/
+
+# Ignore secrets and credentials
+secrets.py
+*.env
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Add more patterns as needed

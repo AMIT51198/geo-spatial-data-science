@@ -24,6 +24,8 @@
 *.pyc
 *.xml
 *.html
+.DS_Store
+.gitignore
 __pycache__/
 output/
 data-for-model/
